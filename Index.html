@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+        <nav class="navbar navbar-light bg-light">
+            <a href="" id = "view-highscores">View Highscores</a>
+            <a id="timer">Time Remaining: </a>
+        </nav>  
+
+    <!-- Main content on page -->
+    <div class="container dark" id="start-page-text">              
+        <div class="row">
+            <div class="col">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try to answer the following code-related questions within the time limit.
+                    Keep in mind that incorrect answers will penalize your score/time by 5 seconds!
+                </p>
+                <ol id="highscore-list"></ol>
+                <button id="start-quiz-button">Start Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/quiz.js"></script>
+    
+</body>
+</html>
